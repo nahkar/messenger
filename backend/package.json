@@ -6,6 +6,7 @@
 	"scripts": {
 		"start": "bun index.ts",
 		"dev": "bun --watch index.ts",
+		"build": "bun build ./index.ts --compile --minify --outfile dist/index",
 		"lint": "eslint .",
 		"lint:fix": "eslint . --fix",
 		"format": "prettier --write .",
